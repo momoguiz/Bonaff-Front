@@ -1,0 +1,70 @@
+.deposer {
+     background-image: url('../image/palais.JPG'); 
+} 
+
+.h1-form {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(171, 149, 149)
+}
+
+.form-deposer {
+    margin: 3rem auto 0;
+    max-width: 30%;
+    padding: 1rem 2rem 0.8rem;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.input {
+    border-radius: 2rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+.input::placeholder, textarea::placeholder {
+    text-align: center;
+}
+
+.label-input {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.select-categorie, .select-annonce, .select-region, .select-ville {
+    border-radius: 1rem;
+    border:none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.button-contact {
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color:#67C092;
+    margin: 1rem 3rem 0 3rem;
+}
+
+.button-contact:hover {
+    background-color: #008000;
+}
+
+.input-checkbox{
+    align-items: center;
+}
+.select-region{
+    color:white;
+    background-color: #67C092;
+}
+.select-categorie{
+    color:white;
+    background-color: #67C092;
+}

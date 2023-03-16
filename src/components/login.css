@@ -1,0 +1,57 @@
+.register {
+    background-image: url('../image/palais.JPG');
+}
+
+.h1-register {
+    text-align: center;
+    font-size: 3rem;
+    color: white
+}
+
+.register-form {
+    margin: 3rem auto 0;
+    max-width: 30%;
+    padding: 0rem 2rem 0.8rem;
+    background-color: rgba(255, 255, 255, 0.753);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.input-register {
+    border-radius: 2rem;
+    border: none;
+    margin-bottom: 1rem;
+}
+.input-register::placeholder, textarea::placeholder {
+    text-align: center;
+}
+
+.label-register {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.select-register, .message-register {
+    border-radius: 1rem;
+    border:none;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.button-register {
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    margin: 1rem 3rem 0 3rem;
+}
+
+.button-register:hover {
+    background-color: green;
+}

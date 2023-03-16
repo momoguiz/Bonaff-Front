@@ -1,0 +1,16 @@
+.navbar{
+    list-style: non ;
+    padding: 0;
+    text-align: center;
+    border-bottom: solid 2px #67C092 ;
+}
+ul,li {
+    display: inline-block;
+    margin-right: 150px;  
+    
+}
+a{
+    text-decoration: none;
+    color: #67C092;
+    
+}

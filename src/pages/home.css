@@ -1,0 +1,46 @@
+.navBar {
+    text-align: center;
+    border-bottom: solid 1px #67C092;
+}
+
+.navBar ul {
+    background-color: black;
+}
+a{
+    /* color: black; */
+    text-decoration: non;
+}
+
+p{
+    text-decoration: non;
+    
+}
+.searchBar {
+padding :1rem;
+}
+/* .searchBar input{
+    font-size: 1rem; 
+    padding: 0.5rem;
+} */
+
+.search_result{
+    border: 1px solid blanchedalmond;
+    /* margin: 4rem 1rem; */
+    /* padding: 4rem; */
+}
+
+.search_result {
+        display: flex;
+        justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+
+ul,li{
+    text-align: center;
+    text-decoration: non;
+    /* display:flex; */
+    justify-content: space-around;
+    list-style: none;
+    color: #67C092;
+}
